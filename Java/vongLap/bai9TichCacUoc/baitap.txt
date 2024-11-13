@@ -1,0 +1,12 @@
+[Vòng Lặp]. Bài 9. Tích các ước
+Tính tích các ước của số tự nhiên N
+Input Format
+Số nguyên dương N
+Constraints
+1≤N≤1000
+Output Format
+Tích các ước số của N
+Sample Input 0
+10
+Sample Output 0
+100

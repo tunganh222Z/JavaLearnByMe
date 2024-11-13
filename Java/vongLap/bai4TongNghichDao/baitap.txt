@@ -1,0 +1,16 @@
+[Vòng lặp]. Bài 4. Tổng nghịch đảo
+Tính tổng : S=1+1/2+1/3+1/4+….+1/n.
+Gợi ý : Tạo 1 biến kết quả gọi là tong và khởi tạo bằng 0(tránh giá trị rác),
+sau đó sinh ra 1 vòng lặp chạy từ 1 tới n,
+mỗi vòng lặp thì cộng giá trị 1 / i của vòng lặp vào biến tong.
+In ra biến tong SAU KHI VÒNG LẶP KẾT THÚC
+Input Format
+Số nguyên dương n
+Constraints
+1≤n≤10^5
+Output Format
+In ra kết quả lấy độ chính xác 3 số sau dấu phẩy.
+Sample Input 0
+2
+Sample Output 0
+1.500

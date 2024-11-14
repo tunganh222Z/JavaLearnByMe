@@ -27,7 +27,6 @@ public class result {
 
             soChaiBia = soChaiBia - (doiVoLayBia * 3) + doiVoLayBia;
         }
-
         return doiBia;
     }
 

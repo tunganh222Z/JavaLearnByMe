@@ -1,0 +1,14 @@
+[Mảng 1 chiều cơ bản]. Bài 21.1. Chèn 1.
+
+Cho mảng số nguyên A[] gồm N phần tử, nhiệm vụ của bạn là chèn phần tử X vào vị trí K trong mảng sau đó in ra mảng.
+Input Format
+Dòng đầu tiên là 3 số nguyên dương N, X, K; Dòng thứ 2 gồm N số nguyên viết cách nhau một vài khoảng trắng
+Constraints
+1<=K<=N<=1000; -10^3<=A[i], X<=10^3;
+Output Format
+In ra mảng sau khi chèn
+Sample Input 0
+8 292 5
+343 473 572 525 210 2 874 318
+Sample Output 0
+343 473 572 525 292 210 2 874 318

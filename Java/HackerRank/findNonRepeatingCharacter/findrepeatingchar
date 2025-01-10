@@ -1,0 +1,10 @@
+Đề bài:
+Viết một chương trình trong Java để tìm ký tự đầu tiên không lặp lại trong một chuỗi.
+Nếu không có ký tự nào không lặp lại, in ra thông báo thích hợp.
+
+Ví dụ:
+Input 1:
+Enter a string: programming
+Output 1:
+
+First non-repeating character: r

@@ -1,4 +1,4 @@
-package HackerRank.annagram;
+package HackerRank.anagram;
 
 import java.util.Arrays;
 import java.util.Scanner;

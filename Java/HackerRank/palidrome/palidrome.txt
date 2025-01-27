@@ -1,0 +1,14 @@
+Mô tả bài toán:
+Palindrome là một chuỗi ký tự mà khi đọc từ trái sang phải và từ phải sang trái đều giống nhau.
+
+Ví dụ:
+Chuỗi "madam", "racecar", "121" là Palindrome.
+Chuỗi "hello", "1234" không phải Palindrome.
+Thuật toán kiểm tra Palindrome:
+Đầu vào: Một chuỗi ký tự.
+Đầu ra:
+Trả về true nếu chuỗi là Palindrome.
+Trả về false nếu không phải.
+Ý tưởng:
+So sánh các ký tự ở đầu và cuối chuỗi.
+Tiếp tục so sánh các ký tự bên trong cho đến khi gặp giữa chuỗi.

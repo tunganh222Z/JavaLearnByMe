@@ -1,0 +1,17 @@
+Bài tập: Find the First Non-Repeating Character in a String
+Viết một chương trình Java để tìm ký tự đầu tiên không lặp lại trong một chuỗi cho trước. Nếu tất cả các ký tự đều lặp lại, in ra thông báo thích hợp.
+
+Đầu vào:
+Một chuỗi bất kỳ từ người dùng (ví dụ: "swiss").
+Đầu ra:
+In ra ký tự đầu tiên không lặp lại, hoặc thông báo "Không có ký tự nào không lặp lại".
+Yêu cầu:
+Chương trình cần đọc chuỗi từ bàn phím.
+Sử dụng cấu trúc HashMap để đếm số lần xuất hiện của từng ký tự.
+Tìm và in ký tự không lặp lại đầu tiên.
+Ví dụ:
+Đầu vào: swiss
+Đầu ra: w
+
+Đầu vào: aabbcc
+Đầu ra: Không có ký tự nào không lặp lại

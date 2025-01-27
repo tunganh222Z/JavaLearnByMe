@@ -1,0 +1,14 @@
+Implement the find_all_hobbyists function that takes a hobby,
+and an object consisting of people's names mapped to their respective hobbies.
+The function should return a List containing the names of the people (in any order)
+that enjoy the hobby.
+
+For example, the following code should display the name 'Chad'.
+
+hobbies = {
+    "Steve": ["Fashion", "Piano", "Reading"],
+    "Patty": ["Drama", "Magic", "Yoga"],
+    "Chad": ["Puzzles", "Pets", "Yoga"]
+}
+
+print(find_all_hobbyists("Yoga", hobbies))

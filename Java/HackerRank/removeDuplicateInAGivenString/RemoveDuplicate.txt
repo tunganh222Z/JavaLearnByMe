@@ -1,0 +1,27 @@
+Dưới đây là bài toán và cách giải để loại bỏ các ký tự trùng lặp trong một chuỗi.
+
+Đề bài:
+Viết một chương trình trong Java để loại bỏ các ký tự trùng lặp trong một chuỗi.
+Chỉ giữ lại lần xuất hiện đầu tiên của mỗi ký tự.
+
+Ví dụ:
+Input:
+
+c
+Copy code
+Enter a string: programming
+Output:
+
+arduino
+Copy code
+String after removing duplicates: programin
+Input:
+
+c
+Copy code
+Enter a string: java
+Output:
+
+arduino
+Copy code
+String after removing duplicates: jav

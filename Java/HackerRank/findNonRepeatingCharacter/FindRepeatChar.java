@@ -1,11 +1,10 @@
 package HackerRank.findNonRepeatingCharacter;
 
 import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Scanner;
 
-public class FindNonRepeatingCharacter {
+public class FindRepeatChar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

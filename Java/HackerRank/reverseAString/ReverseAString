@@ -1,0 +1,24 @@
+Bài tập: Reverse a String
+Đề bài:
+Viết một chương trình trong Java để thực hiện việc đảo ngược một chuỗi. Yêu cầu:
+
+Nhập một chuỗi bất kỳ từ người dùng.
+
+Sử dụng một trong các cách sau để đảo ngược chuỗi:
+
+Dùng vòng lặp.
+Dùng StringBuilder hoặc StringBuffer.
+Dùng đệ quy.
+In chuỗi đảo ngược ra màn hình.
+
+Ví dụ:
+Input:
+
+css
+Copy code
+Nhập chuỗi: hello
+Output:
+
+css
+Copy code
+Chuỗi đảo ngược: olleh

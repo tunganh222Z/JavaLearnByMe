@@ -1,4 +1,4 @@
-package mangHaiChieu.bai27;
+package arrayList.bai27;
 
 import java.util.Arrays;
 import java.util.HashMap;

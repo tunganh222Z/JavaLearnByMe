@@ -65,7 +65,6 @@ public class _912_SortAnArray {
         int[]res = merge(a1,a2);
         return res;
     }
-
     /*
     Phân tích chi tiết và cây đệ quy
         Chia (Divide):

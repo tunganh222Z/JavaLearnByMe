@@ -1,3 +1,5 @@
+package sorting;
+
 public class Sorting {
     public static void main(String[] args) {
         int[] a = {5, 3, 2, 7, 8, 1, 2};

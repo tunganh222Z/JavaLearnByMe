@@ -1,4 +1,4 @@
-package HashTable_SetMap;
+package HashTable_SetMap.Knowledge;
 
 import java.util.ArrayList;
 

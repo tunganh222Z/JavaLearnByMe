@@ -1,11 +1,11 @@
-package StackQueue;
+package StackQueue.StackQueueJava;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class ValidParentheses {
+public class _20_ValidParentheses {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

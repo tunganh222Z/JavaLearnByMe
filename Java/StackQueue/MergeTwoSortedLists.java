@@ -1,4 +1,5 @@
-import java.util.List;
+package StackQueue;
+
 import java.util.Scanner;
 
 public class MergeTwoSortedLists {

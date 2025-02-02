@@ -1,4 +1,4 @@
-package StackQueue;
+package StackQueue.SetUpStackQueue;
 
 public class MyArrayStack implements IStackQueue{
     private int[] array;
@@ -40,5 +40,17 @@ public class MyArrayStack implements IStackQueue{
     @Override
     public boolean isEmpty() {
         return topIndex < 0;
+    }
+
+    @Override
+    public void print() {
+        if (!isEmpty()){
+            for (int i = topIndex; i >= 0; i--){
+                System.out.println(array[i] + " ");
+            }
+            System.out.println();
+        } else {
+            System.out.println("Stack is empty");
+        }
     }
 }

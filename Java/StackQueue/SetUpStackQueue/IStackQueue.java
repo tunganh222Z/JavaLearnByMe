@@ -1,4 +1,4 @@
-package StackQueue;
+package StackQueue.SetUpStackQueue;
 
 public interface IStackQueue {
 
@@ -7,4 +7,5 @@ public interface IStackQueue {
 
     public boolean isFull();
     public boolean isEmpty();
+    public void print();
 }

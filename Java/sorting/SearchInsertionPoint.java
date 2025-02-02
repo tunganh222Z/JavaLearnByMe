@@ -1,3 +1,5 @@
+package sorting;
+
 public class SearchInsertionPoint {
     public static void main(String[] args) {
 

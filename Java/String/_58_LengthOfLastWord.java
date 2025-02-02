@@ -1,6 +1,7 @@
 package String;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class _58_LengthOfLastWord {
     public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class _58_LengthOfLastWord {
     }
 
     public static int lengthOfLastWord(String s) {
+        Stack stack = new Stack<>();
         int length = 0;
         char character = ' ';
         for (int i = s.length()-1; i >= 0; i--){

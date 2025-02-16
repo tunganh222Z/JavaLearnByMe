@@ -1,4 +1,10 @@
-package learningJson.responseClass;
+package learningCallAPI.responseClass;
 
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
+
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class ResponseMicroservice {
 }

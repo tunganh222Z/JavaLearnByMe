@@ -70,4 +70,27 @@ public class _448_FindAllNumbersDisappearedInAnArray {
             nums[j+1] = ai;
         }
     }
+
+    public List<Integer> findDisappearedNumbersByChatGpt (int[] nums ){
+        List<Integer> result = new ArrayList<>();
+
+        // Step 1: Duyệt qua mảng và đổi chỗ các phần tử đúng vị trí
+        for (int i = 0; i < nums.length; i++) {
+            while (nums[i] != nums[nums[i] - 1]) {
+                // Đổi chỗ nums[i] và nums[nums[i] - 1]
+                int temp = nums[i];
+                nums[i] = nums[nums[i] - 1];
+                nums[temp - 1] = temp;
+            }
+        }
+
+        // Step 2: Kiểm tra các chỉ số và tìm các phần tử bị thiếu
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != i + 1) {
+                result.add(i + 1);
+            }
+        }
+
+        return result;
+    }
 }

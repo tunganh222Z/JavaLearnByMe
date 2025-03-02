@@ -1,0 +1,31 @@
+{
+  "status": 200,
+  "error": "OK",
+  "soaErrorCode": null,
+  "soaErrorDesc": null,
+  "clientMessageId": "HEsWYGca1",
+  "path": "http://10.1.27.43/loanld/v3.1/request-create",
+  "data": {
+    "loanId": "LD2510834499",
+    "reqId": "8da694a4-9271-4fa7-85cf-5ef66414e9b4",
+    "accountNumber": "LD2510834499",
+    "loanTerm": 12,
+    "startDate": "2025-04-18T00:00:00",
+    "endDate": "2026-04-18T00:00:00",
+    "interestRate": "10.8",
+    "spread": null,
+    "account41": null,
+    "amount": "5000000",
+    "contractId": null,
+    "signatureInfo": [
+      {
+        "signaturePath": "/data/file/loan_common/in/mb_loan_59410516_2801151.pdf",
+        "requestId": "aBgaXDSEUkQ1",
+        "challenge": "bK3jFZmmAwbI2S8jVEKEvosBGGqg6utI",
+        "traceId": "1739850823416-c4af93d3-334f-4281-95e6-3f2fe50af802",
+        "recordId": 135947,
+        "docType": "30050"
+      }
+    ]
+  }
+}

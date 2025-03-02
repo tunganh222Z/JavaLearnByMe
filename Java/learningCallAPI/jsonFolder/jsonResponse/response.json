@@ -1,0 +1,461 @@
+{
+  "path": "/v1.0/version",
+  "data": {
+    "AUTH.DATE": "20250418",
+    "DEBIT.VALUE.DATE": "20250418",
+    "CHARGE.FOR": [
+      {}
+    ],
+    "BEN.BANK": [
+      {}
+    ],
+    "CHARGE.AMT": [
+      {}
+    ],
+    "DEBIT.CUS.POST.CD": [
+      {}
+    ],
+    "CURR.NO": "1",
+    "DEBT.CUS.COUNTRY": [
+      {}
+    ],
+    "CR.ADVICE.REQD.Y.N": "N",
+    "DEBT.CUS.TOWN.CON": [
+      {}
+    ],
+    "IN.BEN.NAME": [
+      {}
+    ],
+    "BEN.BANK.NAME": [
+      {}
+    ],
+    "REF.DATA.ITEM": [
+      {}
+    ],
+    "AUTHORISER": "95719_JMSONLINE.1_OFS_DECRY.TELNET",
+    "IN.C.ACC.WIT.BK": [
+      {}
+    ],
+    "IN.BEN.TOWN": [
+      {}
+    ],
+    "FOR.EQUIV.CHGS": [
+      {}
+    ],
+    "AMOUNT.CREDITED": "VND5000000",
+    "BK.TO.BK.INFO": [
+      {}
+    ],
+    "KB.AMT": [
+      {}
+    ],
+    "IN.SEND.CORR.BK": [
+      {}
+    ],
+    "IN.SEND.CHG": [
+      {}
+    ],
+    "KB.NGANH.KT": [
+      {}
+    ],
+    "BEN.ADDRESS": [
+      {}
+    ],
+    "DEPT.CODE": "1",
+    "TOT.REC.CHG.CRCCY": "0",
+    "DD.DOITAC": [
+      {}
+    ],
+    "NSNN.CQ.XP": [
+      {}
+    ],
+    "STMT.NOS": [
+      {
+        "STMT.NOS": "208699571939239.01"
+      },
+      {
+        "STMT.NOS": "1-2"
+      },
+      {
+        "STMT.NOS": "VN0010003"
+      },
+      {
+        "STMT.NOS": "208699571939239.02"
+      },
+      {
+        "STMT.NOS": "1-4"
+      }
+    ],
+    "DOITAC.KK.HD": [
+      {}
+    ],
+    "KB.MA.NGUON": [
+      {}
+    ],
+    "CRED.CUS.POS.CODE": [
+      {}
+    ],
+    "SIGNATORY": [
+      {}
+    ],
+    "CHANNEL": "MOBILERETAIL",
+    "MSG.DATE": [
+      {}
+    ],
+    "IN.C.INTMED.BK": [
+      {}
+    ],
+    "IN.REC.CORR.BK": [
+      {}
+    ],
+    "ACCT.WITH.BK": [
+      {}
+    ],
+    "INTERMED.BANK": [
+      {}
+    ],
+    "DEBIT.COMP.CODE": "VN0010003",
+    "IN.BEN.BANK": [
+      {}
+    ],
+    "MSG.REFERENCE": [
+      {}
+    ],
+    "CRED.CUS.LEGAL.ID": [
+      {}
+    ],
+    "KB.KY.THUE": [
+      {}
+    ],
+    "MESSAGE": [
+      {}
+    ],
+    "BK.TO.BK.OUT": [
+      {}
+    ],
+    "IN.SWIFT.MSG": [
+      {}
+    ],
+    "NSNN.NDUNG": [
+      {}
+    ],
+    "LOC.EQUIV.CHGS": [
+      {
+        "LOC.EQUIV.CHGS": "DEBIT.ACCT.BAL:0+CREDIT.ACCT.BAL:781298321919"
+      }
+    ],
+    "t24VersionId": "FT25108931009294",
+    "CURRENCY.MKT.CR": "1",
+    "CHARGED.CUSTOMER": "1367967",
+    "KB.MA.QUY": [
+      {}
+    ],
+    "RELATED.MSG": [
+      {}
+    ],
+    "IN.C.BK.T.BK.IN": [
+      {}
+    ],
+    "CRED.CUS.ADDRESS": [
+      {}
+    ],
+    "NSNN.KH.NHAN": [
+      {}
+    ],
+    "DATE.TIME": [
+      {
+        "DATE.TIME": "2502181053"
+      }
+    ],
+    "IN.INTMED.BANK": [
+      {}
+    ],
+    "KB.MUC.TIEU": [
+      {}
+    ],
+    "MESSAGE.TYPE": [
+      {}
+    ],
+    "DEBIT.CURRENCY": "VND",
+    "CREDIT.CUSTOMER": "1367967",
+    "PAYMENT.DETAILS": [
+      {
+        "PAYMENT.DETAILS": "LD2510834499 Test noi dung vay"
+      }
+    ],
+    "IN.PAY.DETAILS": [
+      {}
+    ],
+    "PROFIT.CENTRE.CUST": "2801151",
+    "LOCAL.REF": [
+      {}
+    ],
+    "NSNN.TEN.CQQL": [
+      {}
+    ],
+    "IN.REASON.OVE": [
+      {}
+    ],
+    "IN.TIME.IND": [
+      {}
+    ],
+    "TOT.REC.CHG.LCL": "0",
+    "FED.FUNDS": "NO",
+    "RETURN.TO.DEPT": "NO",
+    "CREDIT.COMP.CODE": "VN0010003",
+    "RATE.FIXING": "NO",
+    "DEBIT.ACCT.NO": "3933901757804",
+    "TRANSFER.AMT": [
+      {}
+    ],
+    "KB.CAP.NS": [
+      {}
+    ],
+    "CHARGE.TYPE": [
+      {}
+    ],
+    "CARD.TXN.DETAIL": [
+      {}
+    ],
+    "TOT.REC.COMM.LCL": "0",
+    "IN.BEN.ADDRESS": [
+      {}
+    ],
+    "POSITION.TYPE": "TR",
+    "CREDIT.AMOUNT": "5000000",
+    "KB.NOIDUNG.KT": [
+      {}
+    ],
+    "COMMISSION.AMT": [
+      {}
+    ],
+    "CUST.GROUP.LEVEL": "39",
+    "DEBIT.CUST.ADDRESS": [
+      {}
+    ],
+    "COMMISSION.FOR": [
+      {}
+    ],
+    "KB.DBHC": [
+      {}
+    ],
+    "TAX.TYPE": [
+      {}
+    ],
+    "CON.TAU": [
+      {}
+    ],
+    "MSG.TYPE": [
+      {}
+    ],
+    "DETAILS.EXTEND": [
+      {}
+    ],
+    "IN.ORDERING.BK": [
+      {}
+    ],
+    "ACCT.WITH.BANK": [
+      {}
+    ],
+    "CO.CODE": "VN0010001",
+    "TIME.F3.FT": "10:53:59 18 FEB 2025",
+    "ETD.COLLECTION": [
+      {}
+    ],
+    "IN.BK.TO.BK.INFO": [
+      {}
+    ],
+    "DEBIT.CUST.STREET": [
+      {}
+    ],
+    "CP.PAYMENT": [
+      {}
+    ],
+    "TAX.AMT": [
+      {}
+    ],
+    "MB.PAY.METHOD": "301",
+    "INPUTTER": [
+      {
+        "INPUTTER": "95719_JMSONLINE.1__OFS_DECRY.TELNET"
+      }
+    ],
+    "CHARGE.CODE": "DEBIT PLUS CHARGES",
+    "IN.PROCESS.ERR": [
+      {}
+    ],
+    "COMMISSION.TYPE": [
+      {}
+    ],
+    "AMOUNT.DEBITED": "VND5000000",
+    "IN.ORDERING.CUS": [
+      {}
+    ],
+    "CREDIT.ACCT.NO": "5202557859089",
+    "CRED.CUS.NAME.1": [
+      {}
+    ],
+    "TRANSACTION.TYPE": "ACIB",
+    "BAL.AFT.TXN": "giODcK",
+    "DEBIT.CUSTOMER": "2801151",
+    "KB.TKTN": [
+      {}
+    ],
+    "DEBIT.CUS.NAME.2": [
+      {}
+    ],
+    "TOT.REC.CHG": "0",
+    "DEBIT.CUS.NAME.1": [
+      {}
+    ],
+    "CRED.CUS.NAME.2": [
+      {}
+    ],
+    "TOT.REC.COMM": "0",
+    "CURRENCY.MKT.DR": "1",
+    "AU.CUS.ADD": [
+      {}
+    ],
+    "XUATXU.HH": [
+      {}
+    ],
+    "CRED.CUS.COUNTRY": [
+      {}
+    ],
+    "CH.LOAI.KH.MUC": [
+      {}
+    ],
+    "IN.INSTR.CODE": [
+      {}
+    ],
+    "IN.BEN.CUSTOMER": [
+      {}
+    ],
+    "DR.ADVICE.REQD.Y.N": "N",
+    "CRED.CUS.TOWN.CON": [
+      {}
+    ],
+    "IN.BK.TO.BK": [
+      {}
+    ],
+    "DEBIT.CUS.LEGAL.ID": [
+      {}
+    ],
+    "DELIVERY.OUTREF": [
+      {}
+    ],
+    "BEN.NAME": [
+      {}
+    ],
+    "TIME.IND": [
+      {}
+    ],
+    "OVERRIDE.VAL": [
+      {}
+    ],
+    "BEN.TOWN": [
+      {}
+    ],
+    "SENDING.ADDR": [
+      {}
+    ],
+    "ORDERING.CUST": [
+      {
+        "ORDERING.CUST": "ATV24000234"
+      }
+    ],
+    "CRED.CUS.STREET": [
+      {}
+    ],
+    "CHARGE.COM.DISPLAY": "NO",
+    "IN.INTERMED.BK": [
+      {}
+    ],
+    "LOC.AMT.CREDITED": "5000000",
+    "AU.CUS.NAME": [
+      {}
+    ],
+    "BEN.ACCT.NAME": [
+      {}
+    ],
+    "LOC.AMT.DEBITED": "5000000",
+    "CONTRACT.NO": [
+      {}
+    ],
+    "REC.CORR.BANK": [
+      {}
+    ],
+    "EXTEND.INFO": [
+      {}
+    ],
+    "COMMISSION.CODE": "DEBIT PLUS CHARGES",
+    "IN.3RD.REIMB.BK": [
+      {}
+    ],
+    "ORDERING.BANK": [
+      {}
+    ],
+    "KB.MA.DP": [
+      {}
+    ],
+    "CREDIT.CURRENCY": "VND",
+    "BEN.CUSTOMER": [
+      {}
+    ],
+    "INPUT.REM": [
+      {}
+    ],
+    "IN.C.ORD.BK": [
+      {}
+    ],
+    "FREE.TEXT.MSGTO": [
+      {}
+    ],
+    "INSTRCTN.CODE": [
+      {}
+    ],
+    "CANG.NN": [
+      {}
+    ],
+    "BIC.IBAN.BEN.NAME": [
+      {}
+    ],
+    "TOT.SND.CHG.CRCCY": "0",
+    "NSNN.NDUNG2": [
+      {}
+    ],
+    "PROCESSING.DATE": "20250418",
+    "OVERRIDE": [
+      {}
+    ],
+    "REF.DATA.VALUE": [
+      {}
+    ],
+    "KB.DV.NS": [
+      {}
+    ],
+    "KB.DESCRIPTION": [
+      {}
+    ],
+    "NSNN.NDUNG5": [
+      {}
+    ],
+    "SEND.TO.PARTY": [
+      {}
+    ],
+    "NSNN.NDUNG3": [
+      {}
+    ],
+    "NSNN.NDUNG4": [
+      {}
+    ],
+    "CREDIT.VALUE.DATE": "20250418",
+    "AUDIT.DATE.TIME": "2502181053",
+    "KB.MCHUONG": [
+      {}
+    ]
+  },
+  "error": "OK",
+  "status": 200,
+  "clientMessageId": "giODcK-72244"
+}

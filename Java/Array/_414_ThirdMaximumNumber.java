@@ -75,27 +75,28 @@ public class _414_ThirdMaximumNumber {
         long second = Long.MIN_VALUE;
         long third = Long.MIN_VALUE;
 
-        for(int i=0; i< nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             int element = nums[i];
 
             if (element == first || element == second || element == third) {
                 continue;
             }
 
-            if(element > first) {
+            if (element > first) {
                 third = second;
                 second = first;
                 first = element;
-            }else if( element > second ) {
+            } else if (element > second) {
                 third = second;
                 second = element;
-            }else if( element > third) {
+            } else if (element > third) {
                 third = element;
             }
         }
-        if(third == Long.MIN_VALUE) {
-            return (int)first;
+        if (third == Long.MIN_VALUE) {
+            return (int) first;
         } else {
-            return (int)third;
+            return (int) third;
         }
+    }
 }

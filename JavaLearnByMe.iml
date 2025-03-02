@@ -39,5 +39,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="jsonLib" level="project" />
+    <orderEntry type="library" name="json-20250107" level="project" />
   </component>
 </module>

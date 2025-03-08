@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.util.JSONPObject;
 import learningCallAPI.constant.Constant;
 import learningCallAPI.ultilities.ReadJson;
+import learningCallAPI.ultilities.UtilitiesClass;
 import org.json.JSONObject;
 
 import java.io.File;
@@ -26,5 +27,8 @@ public class LearningJSONObject {
         JSONObject dataObject = jsonObject.optJSONObject("data");
         String locEquivChgs = dataObject.optJSONArray("LOC.EQUIV.CHGS").optJSONObject(0).optString("LOC.EQUIV.CHGS");
         System.out.println(locEquivChgs);
+    }
+    public void test(){
+        utilities.randomText(4);
     }
 }

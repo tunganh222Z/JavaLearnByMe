@@ -1,21 +1,24 @@
 package learningCallAPI;
 
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
+import learningCallAPI.constant.HttpMethod;
 import learningCallAPI.responseClass.ResponseMicroservice;
+import learningCallAPI.ultilities.Authentication;
+import learningCallAPI.ultilities.ClientMess;
+import org.json.JSONObject;
 
 import static io.restassured.RestAssured.given;
 
 public class CallMicroservice {
+    ClientMess clientMess = new ClientMess();
     public CallMicroservice(){
-
     }
-//    public ResponseMicroservice call(){
-//        RestAssured.baseURI = "123";
-//        RequestSpecification request = given();
-//        request.head("Accept", "application/json");
-//        Response response = request.get();
-//        return response.then().extract().as(ResponseMicroservice.class);
-//    }
+
+    public JSONObject callServiceWithClientMess(String apiPath, String token, HttpMethod method){
+
+        return null;
+    }
+
+    public void test(){
+        new CallMicroservice().callServiceWithClientMess("test", Authentication.getToken(), HttpMethod.POST);
+    }
 }

@@ -1,6 +1,7 @@
 package learningCallAPI;
 
 import learningCallAPI.constant.HttpMethod;
+import learningCallAPI.responseClass.ResponseMicroservice;
 import learningCallAPI.ultilities.Authentication;
 import learningCallAPI.ultilities.ClientMess;
 import org.json.JSONObject;
@@ -13,7 +14,6 @@ public class CallMicroservice {
     }
 
     public JSONObject callServiceWithClientMess(String apiPath, String token, HttpMethod method){
-
 
         return null;
     }

@@ -1,5 +1,8 @@
 package learningCallAPI.ultilities;
 
+import java.lang.reflect.Field;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
 public class UtilitiesClass {
@@ -19,6 +22,21 @@ public class UtilitiesClass {
         }
 
         return sb.toString();
+    }
+
+    public Map<String, Object> convertToHashMap(Object object){
+        Map<String, Object> map = new HashMap<>();
+        Field[] fields = object.getClass().getDeclaredFields();
+        try {
+            for (Field field : fields){
+                field.setAccessible(true);
+
+                map.put(field.getName(), field.get(object));
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return map;
     }
 
     public static void main(String[] args) {

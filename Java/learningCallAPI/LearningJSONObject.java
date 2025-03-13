@@ -14,6 +14,7 @@ import java.io.FileReader;
 import java.util.Map;
 
 public class LearningJSONObject {
+    UtilitiesClass utilities;
     public static void main(String[] args) throws FileNotFoundException {
 //        String jsonFile = Constant.JSON_RESPONSE + "response.json";
         String jsonFile = "Java/learningCallAPI/jsonFolder/jsonResponse/response.json";

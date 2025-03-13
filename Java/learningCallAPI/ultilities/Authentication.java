@@ -8,6 +8,6 @@ public class Authentication {
     }
 
     public static String getToken(){
-        return new Authentication();
+        return new Authentication().toString();
     }
 }

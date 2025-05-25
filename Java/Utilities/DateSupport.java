@@ -53,7 +53,11 @@ public class DateSupport {
         return this;
     }
 
-    public void subtractDays (int days){}
+    public DateSupport subtractDays (int days){
+        calendar.add(Calendar.DAY_OF_MONTH, -days);
+        this.date = calendar.getTime();
+        return this;
+    }
     public void daysBetween (DateSupport otherDate){}
 
     public boolean isBefore (DateSupport otherDate){

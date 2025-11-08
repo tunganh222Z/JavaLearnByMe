@@ -15,6 +15,11 @@ public class DateSupport {
         this.instance = instance;
     }
 
+    DateSupport(Date instance){
+        this.date = instance;
+        this.calendar.setTime(date);
+    }
+
     public String formatTo(String formatDateTime){
         if (this.date == null) {
             throw new IllegalStateException("You must call format() before formatTo()");
@@ -22,6 +27,11 @@ public class DateSupport {
 
         DateFormat dateFormat = new SimpleDateFormat(formatDateTime);
         return dateFormat.format(date);
+    }
+
+    private void add(int calField, int value) {
+        calendar.add(calField, calField);
+        this.date = calendar.getTime();
     }
 
     public DateSupport format(String formatDateTime) {
@@ -58,6 +68,11 @@ public class DateSupport {
         this.date = calendar.getTime();
         return this;
     }
+
+    public DateSupport addHour(int hours) {
+        add(Calendar.HOUR, hours);
+        return this;
+    }
     public void daysBetween (DateSupport otherDate){}
 
     public boolean isBefore (DateSupport otherDate){
@@ -73,4 +88,7 @@ public class DateSupport {
         return null;
     }
 
+    public Date value(){
+        return this.date;
+    }
 }
